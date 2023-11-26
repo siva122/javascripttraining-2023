@@ -99,16 +99,50 @@
 
 //task one
 //create a register function with uname,email,pwd use this function to another function named as facebookregister
-function reigster(uname, email, pwd) {
-  return (
-    uname + ' ' + 'with email' + ' ' + email + ' ' + 'successfully registerd'
-  );
-}
-function facebookRegister(reigster, uname, email, pwd) {
-  return reigster(uname, email, pwd);
-}
-let uname = 'srikanth';
-let email = 'srikanth@gmail.com';
-let pwd = 'srikanth123';
-let result10 = facebookRegister(reigster, uname, email, pwd);
-console.log(result10);
+// function reigster(uname, email, pwd) {
+//   return (
+//     uname + ' ' + 'with email' + ' ' + email + ' ' + 'successfully registerd'
+//   );
+// }
+// function facebookRegister(reigster, uname, email, pwd) {
+//   return reigster(uname, email, pwd);
+// }
+// let uname = 'srikanth';
+// let email = 'srikanth@gmail.com';
+// let pwd = 'srikanth123';
+// let result10 = facebookRegister(reigster, uname, email, pwd);
+// console.log(result10);
+// //what is callback function
+
+// console.log('start');
+// setTimeout(() => {
+//   console.log('do something');
+// }, 0);
+// console.log('end');
+// function callbackFunction() {
+//   console.log('callback exection completed');
+// }
+// function doSomething(cb) {
+//   for (let i = 0; i < 1000; i++) {
+//     console.log('first');
+//   }
+//   cb();
+// }
+// doSomething(callbackFunction);
+// const test = function () {
+//   console.log('test');
+// };
+// test();
+//IIFE  in javascript  Immediate Invoke Function Expression
+
+// (function test() {
+//   console.log('first');
+// })();
+// (function test(x) {
+//   console.log('first', x);
+// })(5);
+//arrow function
+// let sample = (x) => {
+//   console.log(x + y);
+// };
+// sample(10);
